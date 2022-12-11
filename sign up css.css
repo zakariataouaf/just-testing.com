@@ -1,0 +1,132 @@
+body {
+    background: linear-gradient(to right,blue,purple);
+    background-attachment: fixed;
+    margin: 0px;
+    font-family:Arial, Helvetica, sans-serif ;
+}
+
+#olcia{
+    background-color:red;
+    width: 450px;
+    height: 550px;
+    margin-top: 50px;
+    margin-left:20px;
+    border-style:;
+    background: linear-gradient(to right,rgb(80, 21, 129),blue);
+    display: inline-block   ;
+    border-top-left-radius: 30px;
+    border-bottom-left-radius: 30px;
+    box-shadow: 0px 0px 20px 5px  #000000;
+    
+   
+
+    
+}
+* {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color:black;
+    font-size: 20px;
+}
+
+div > h1 {
+    color: white;
+    padding-top: 100px;
+    text-align: center;
+}
+div > p {
+    text-align: center;
+    padding-top: 50px   ;
+    padding-left: 20px;
+    padding-right: 20px;
+    color: white;
+}
+div > a {
+    position: absolute;
+    top: 400px;
+    left: 190px;
+    border-width: 2px;
+    color:white;
+    border-style:double;
+    padding: 10px;
+    border-color: purple;
+    border-radius: 50px;
+    text-decoration: none;
+    
+   
+}
+#olcia2{
+    position: absolute;
+    background-color: white;
+    width: 250px;
+    float: left;
+    top: 50px;
+    left:472px;
+    width: 840px;
+    height: 550px;
+    border-top-right-radius: 30px;
+    border-bottom-right-radius: 30px;
+    box-shadow: 5px 0px 20px 2px  #000000;
+
+    
+}
+#smc{
+    position: absolute; 
+    color: red;
+    top: -60px;
+    left: 350px;
+    color: grey;
+    font-weight: lighter;
+    
+}
+input{
+    position: relative;
+    top: 120px;
+    left: 220px;
+    margin-top: 10px;
+    margin-left: 50px;
+    width: 360px;
+    height: 50px;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    border-width: 1px;
+    border-color:rgb(211, 72, 211);
+    outline: none;
+}
+input::placeholder{
+    font-weight: bolder;
+    opacity: .5;
+    color: grey;
+
+}
+#check{
+    width: 16px;
+    margin-left: 110px;
+}
+label{
+        position: absolute;
+        top: 400px;
+        left: 350px;
+}
+button{
+    margin-left: 380px; 
+    background-color:transparent;
+    padding: 15px;
+    position: absolute;
+    top:430px;
+    border-color:rgb(73, 73, 228) ;
+    cursor: pointer;
+}
+#account{
+    color: red;
+    position: absolute;
+    top: 490px;
+    left: 320px;
+    color: grey;
+    border: none;
+}
+button:hover{
+    opacity: 0.6;
+    border-color: purple;
+    transition: .5s;
+}
